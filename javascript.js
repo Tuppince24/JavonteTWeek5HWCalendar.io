@@ -9,7 +9,7 @@ function colorchange(){
         time - 12; 
     }
     if(time > moment().hour(9)){
-        document.getElementById("timeC").style.color = "red"
+        $("#timeC").addClass(".Past");
     }
 }
 
